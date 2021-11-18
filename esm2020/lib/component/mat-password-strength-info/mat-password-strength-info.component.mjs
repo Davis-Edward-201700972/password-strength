@@ -44,8 +44,7 @@ MatPasswordStrengthInfoComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion:
         ]),
         trigger('positiveState', [
             transition(':enter', [
-                style({ 'backface-visibility': 'visible' }),
-                animate('{{ timing }}s {{ delay }}s ease-in', keyframes([
+                        animate('{{ timing }}s {{ delay }}s ease-in', keyframes([
                     style({
                         opacity: 0,
                         transform: 'perspective(400px) rotate3d({{ rotateX }}, {{ rotateY }}, 0, 90deg)',
@@ -98,8 +97,7 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.0.0", ngImpor
                         ]),
                         trigger('positiveState', [
                             transition(':enter', [
-                                style({ 'backface-visibility': 'visible' }),
-                                animate('{{ timing }}s {{ delay }}s ease-in', keyframes([
+                                                        animate('{{ timing }}s {{ delay }}s ease-in', keyframes([
                                     style({
                                         opacity: 0,
                                         transform: 'perspective(400px) rotate3d({{ rotateX }}, {{ rotateY }}, 0, 90deg)',

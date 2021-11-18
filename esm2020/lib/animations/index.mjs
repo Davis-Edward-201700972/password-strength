@@ -2,7 +2,6 @@ import { animate, animation, keyframes, style } from '@angular/animations';
 export function flipIn(timing, rotateX, rotateY) {
     const params = { timing: timing, delay: 0, rotateX, rotateY };
     return animation([
-        style({ 'backface-visibility': 'visible' }),
         animate('{{ timing }}s {{ delay }}s ease-in', keyframes([
             style({
                 opacity: 0,
