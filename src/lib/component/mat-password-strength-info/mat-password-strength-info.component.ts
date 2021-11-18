@@ -33,7 +33,6 @@ import {shake} from '../../animations/index';
     ]),
     trigger('positiveState', [
       transition(':enter', [
-        style({'backface-visibility': 'visible'}),
         animate(
           '{{ timing }}s {{ delay }}s ease-in',
           keyframes([
